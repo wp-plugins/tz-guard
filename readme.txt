@@ -43,10 +43,10 @@ Ex
 
 == Screenshots ==
 
-1. /truck/screenshot-1.png
-2. /truck/screenshot-2.jpg
-3. /truck/screenshot-3.jpg
-4. /truck/screenshot-4.jpg
+1. /trunk/screenshot-1.png
+2. /trunk/screenshot-2.jpg
+3. /trunk/screenshot-3.jpg
+4. /trunk/screenshot-4.jpg
 
 == Changelog ==
 
