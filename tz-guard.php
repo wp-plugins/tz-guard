@@ -3,7 +3,7 @@
  * Plugin Name: TZ Guard
  * Plugin URI: http://www.templaza.com/tz-guard-site-security-wordpress-plugin/542.html
  * Description: This is a simple plugin which will help you to security your WordPress site.
- * Version: 0.1.0
+ * Version: 0.1.1
  * Author: TemPlaza
  * Author URI: http://www.templaza.com
  * License: GPLv2 or later
@@ -17,7 +17,7 @@ if (!class_exists('TZGuard')) :
         function __construct() {
             add_action( 'admin_init', array( $this, 'tzguard_i18n' ) );
             add_action( 'admin_menu', array( $this, 'themecheck_add_page' ) );
-            add_action( 'login_head', array( $this, 'check_securitycode') );
+            add_action( 'init', array( $this, 'check_securitycode') );
             add_action( 'init', array( $this, 'check_blacklist_bot'));
 
         }
@@ -74,7 +74,7 @@ if (!class_exists('TZGuard')) :
          * Check security code
          */
         function check_securitycode() {
-            if ($securitycode = trim(get_option('tz_securitycode'))) {
+            if ($this->is_login_page() && $securitycode = trim(get_option('tz_securitycode'))) {
                 $securitydata	=	@$_GET[$securitycode];
 
                 if (!is_user_logged_in() && !isset($securitydata)) {
@@ -89,6 +89,14 @@ if (!class_exists('TZGuard')) :
                     }
                 }
             }
+        }
+
+        /**
+         * Check if in login page.
+         * @return bool
+         */
+        function is_login_page() {
+            return in_array($GLOBALS['pagenow'], array('wp-login.php', 'wp-register.php'));
         }
 
         /**

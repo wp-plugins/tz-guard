@@ -50,10 +50,16 @@ Ex
 
 == Changelog ==
 
+= 0.1.1 =
+* Fix error with wp_redirect function
+
 = 0.1.0 =
 * Start Version
 
 == Upgrade Notice ==
+
+= 0.1.1 =
+This version fixes a major related bug.  Upgrade immediately.
 
 = 0.1.0 =
 First version
