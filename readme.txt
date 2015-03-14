@@ -1,5 +1,6 @@
 === Plugin Name ===
 Contributors: templaza,sonnyle
+Donate link: http://www.templaza.com/tz-guard-site-security-wordpress-plugin/542.html
 Tags: security, protect admin, protect
 Requires at least: 3.0.1
 Tested up to: 4.1
@@ -39,6 +40,13 @@ Ex
 14.177.126.34
 14.177.126.56
 14.177.126.93
+
+== Screenshots ==
+
+1. /truck/screenshot-1.png
+2. /truck/screenshot-2.jpg
+3. /truck/screenshot-3.jpg
+4. /truck/screenshot-4.jpg
 
 == Changelog ==
 
