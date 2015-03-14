@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: tz-guard.php:119
+msgid "Allow Robot Access"
+msgstr "Cho phép rô bốt truy cập vào site"
+
+#. Text in function
+#: tz-guard.php:115
+msgid "Black IP"
+msgstr "Danh sách IP đen."
+
+#. Text in function
+#: tz-guard.php:121
+msgid "No"
+msgstr "Không"
+
+#. Text in function
+#: tz-guard.php:111
+msgid "Security Code"
+msgstr "Mã Bảo Mật"
+
+#. Text in function
+#: tz-guard.php:104
+msgid "Settings saved."
+msgstr "Dữ liệu đã được lưu."
+
+#. Text in function
+#: tz-guard.php:123
+msgid "Yes"
+msgstr "Có"
+
+#. Text in function
+#: tz-guard.php:1
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Bạn không có quyền truy cập vào trang này."

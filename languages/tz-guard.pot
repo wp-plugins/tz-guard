@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: tz-guard.php:121
+msgid "Allow Robot Access"
+msgstr ""
+
+#. Text in function
+#: tz-guard.php:117
+msgid "Black IP"
+msgstr ""
+
+#. Text in function
+#: tz-guard.php:123
+msgid "No"
+msgstr ""
+
+#. Text in function
+#: tz-guard.php:113
+msgid "Security Code"
+msgstr ""
+
+#. Text in function
+#: tz-guard.php:106
+msgid "Settings saved."
+msgstr ""
+
+#. Text in function
+#: tz-guard.php:125
+msgid "Yes"
+msgstr ""
+
+#. Text in function
+#: tz-guard.php:1
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
